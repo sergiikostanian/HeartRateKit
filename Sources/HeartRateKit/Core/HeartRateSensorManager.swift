@@ -138,8 +138,10 @@ extension HeartRateSensorManager: HeartRateSensorService {
 
         selectedSensor = sensor
 
-        observers.enumerateObservers { observer in
-            observer.heartRateSensorService(self, didSelect: sensor)
+        DispatchQueue.main.async {
+            self.observers.enumerateObservers { observer in
+                observer.heartRateSensorService(self, didSelect: sensor)
+            }
         }
     }
 }
