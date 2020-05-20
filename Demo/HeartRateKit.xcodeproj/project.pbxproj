@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821584EE2356047700CC3D76 /* WatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821584ED2356047700CC3D76 /* WatchManager.swift */; };
+		821584F023563A2800CC3D76 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821584EF23563A2800CC3D76 /* ConnectionManager.swift */; };
+		82676A772100B5EF00663984 /* SensorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82676A762100B5EF00663984 /* SensorCell.swift */; };
+		8272A8462107172900CD5D8C /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272A8442107172900CD5D8C /* WorkoutManager.swift */; };
+		82C019042105FDF10091D58C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C019022105FDF10091D58C /* Interface.storyboard */; };
+		82C019062105FDF20091D58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C019052105FDF20091D58C /* Assets.xcassets */; };
+		82C0190D2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82C0190C2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82C019122105FDF30091D58C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C019112105FDF30091D58C /* InterfaceController.swift */; };
+		82C019142105FDF30091D58C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C019132105FDF30091D58C /* ExtensionDelegate.swift */; };
+		82C019162105FDF30091D58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C019152105FDF30091D58C /* Assets.xcassets */; };
+		82C0191A2105FDF30091D58C /* HeartRateKitExampleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 82C019002105FDF10091D58C /* HeartRateKitExampleWatch.app */; };
+		82C01927210632C60091D58C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C01926210632C60091D58C /* HealthKit.framework */; };
+		82D2D32B2475693800728EA8 /* HeartRateKit in Frameworks */ = {isa = PBXBuildFile; productRef = 82D2D32A2475693800728EA8 /* HeartRateKit */; };
+		96A796BE2048539800350531 /* HeartRateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A796BD2048539800350531 /* HeartRateKitTests.swift */; };
+		96E94951204952B600C5D336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E94950204952B600C5D336 /* AppDelegate.swift */; };
+		96E94953204952B600C5D336 /* SensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E94952204952B600C5D336 /* SensorsViewController.swift */; };
+		96E94956204952B600C5D336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E94954204952B600C5D336 /* Main.storyboard */; };
+		96E94958204952B600C5D336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E94957204952B600C5D336 /* Assets.xcassets */; };
+		96E9495B204952B600C5D336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E94959204952B600C5D336 /* LaunchScreen.storyboard */; };
+		96E94966204952B600C5D336 /* HeartRateKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E94965204952B600C5D336 /* HeartRateKitExampleTests.swift */; };
+		96E94971204952B600C5D336 /* HeartRateKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E94970204952B600C5D336 /* HeartRateKitExampleUITests.swift */; };
+		96E9497F20495C5F00C5D336 /* HeartRateSensorManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E9497E20495C5F00C5D336 /* HeartRateSensorManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C0190E2105FDF30091D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A796A62048539800350531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C0190B2105FDF30091D58C;
+			remoteInfo = "HeartRateKitExampleWatch Extension";
+		};
+		82C019182105FDF30091D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A796A62048539800350531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C018FF2105FDF10091D58C;
+			remoteInfo = HeartRateKitExampleWatch;
+		};
+		96E94962204952B600C5D336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A796A62048539800350531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E9494D204952B500C5D336;
+			remoteInfo = HeartRateKitExample;
+		};
+		96E9496D204952B600C5D336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A796A62048539800350531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E9494D204952B500C5D336;
+			remoteInfo = HeartRateKitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82676A7A2100CBE900663984 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C0191E2105FDF30091D58C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82C0190D2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C019222105FDF30091D58C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				82C0191A2105FDF30091D58C /* HeartRateKitExampleWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		821584ED2356047700CC3D76 /* WatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchManager.swift; sourceTree = "<group>"; };
+		821584EF23563A2800CC3D76 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		82676A762100B5EF00663984 /* SensorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorCell.swift; sourceTree = "<group>"; };
+		82676A7C2100CC3100663984 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		82676A7E2100CC3100663984 /* HeartRateKitExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartRateKitExample.entitlements; sourceTree = "<group>"; };
+		8272A8442107172900CD5D8C /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		82C019002105FDF10091D58C /* HeartRateKitExampleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateKitExampleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C019032105FDF10091D58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		82C019052105FDF20091D58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82C019072105FDF20091D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C0190C2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartRateKitExampleWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C019112105FDF30091D58C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		82C019132105FDF30091D58C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		82C019152105FDF30091D58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82C019172105FDF30091D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C01925210632C00091D58C /* HeartRateKitExampleWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HeartRateKitExampleWatch Extension.entitlements"; sourceTree = "<group>"; };
+		82C01926210632C60091D58C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		82D2D3292475692100728EA8 /* HeartRateKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HeartRateKit; path = ..; sourceTree = "<group>"; };
+		96A796B82048539800350531 /* HeartRateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A796BD2048539800350531 /* HeartRateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateKitTests.swift; sourceTree = "<group>"; };
+		96A796BF2048539800350531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E9494E204952B500C5D336 /* HeartRateKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E94950204952B600C5D336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96E94952204952B600C5D336 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsViewController.swift; sourceTree = "<group>"; };
+		96E94955204952B600C5D336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96E94957204952B600C5D336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E9495A204952B600C5D336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96E9495C204952B600C5D336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E94961204952B600C5D336 /* HeartRateKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E94965204952B600C5D336 /* HeartRateKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateKitExampleTests.swift; sourceTree = "<group>"; };
+		96E94967204952B600C5D336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E9496C204952B600C5D336 /* HeartRateKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E94970204952B600C5D336 /* HeartRateKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateKitExampleUITests.swift; sourceTree = "<group>"; };
+		96E94972204952B600C5D336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E9497E20495C5F00C5D336 /* HeartRateSensorManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateSensorManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C019092105FDF30091D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C01927210632C60091D58C /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A796B52048539800350531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9494B204952B500C5D336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D2D32B2475693800728EA8 /* HeartRateKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9495E204952B600C5D336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E94969204952B600C5D336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82676A7B2100CC3100663984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C01926210632C60091D58C /* HealthKit.framework */,
+				82676A7C2100CC3100663984 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82C019012105FDF10091D58C /* HeartRateKitExampleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				82C019022105FDF10091D58C /* Interface.storyboard */,
+				82C019052105FDF20091D58C /* Assets.xcassets */,
+				82C019072105FDF20091D58C /* Info.plist */,
+			);
+			path = HeartRateKitExampleWatch;
+			sourceTree = "<group>";
+		};
+		82C019102105FDF30091D58C /* HeartRateKitExampleWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				821584EF23563A2800CC3D76 /* ConnectionManager.swift */,
+				8272A8442107172900CD5D8C /* WorkoutManager.swift */,
+				82C01925210632C00091D58C /* HeartRateKitExampleWatch Extension.entitlements */,
+				82C019112105FDF30091D58C /* InterfaceController.swift */,
+				82C019132105FDF30091D58C /* ExtensionDelegate.swift */,
+				82C019152105FDF30091D58C /* Assets.xcassets */,
+				82C019172105FDF30091D58C /* Info.plist */,
+			);
+			path = "HeartRateKitExampleWatch Extension";
+			sourceTree = "<group>";
+		};
+		96A796A52048539800350531 = {
+			isa = PBXGroup;
+			children = (
+				82D2D3292475692100728EA8 /* HeartRateKit */,
+				96A796BC2048539800350531 /* HeartRateKitTests */,
+				96E9494F204952B600C5D336 /* HeartRateKitExample */,
+				82C019012105FDF10091D58C /* HeartRateKitExampleWatch */,
+				82C019102105FDF30091D58C /* HeartRateKitExampleWatch Extension */,
+				96E94964204952B600C5D336 /* HeartRateKitExampleTests */,
+				96E9496F204952B600C5D336 /* HeartRateKitExampleUITests */,
+				96A796B02048539800350531 /* Products */,
+				82676A7B2100CC3100663984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96A796B02048539800350531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A796B82048539800350531 /* HeartRateKitTests.xctest */,
+				96E9494E204952B500C5D336 /* HeartRateKitExample.app */,
+				96E94961204952B600C5D336 /* HeartRateKitExampleTests.xctest */,
+				96E9496C204952B600C5D336 /* HeartRateKitExampleUITests.xctest */,
+				82C019002105FDF10091D58C /* HeartRateKitExampleWatch.app */,
+				82C0190C2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A796BC2048539800350531 /* HeartRateKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				96A796BD2048539800350531 /* HeartRateKitTests.swift */,
+				96A796BF2048539800350531 /* Info.plist */,
+				96E9497E20495C5F00C5D336 /* HeartRateSensorManagerTests.swift */,
+			);
+			path = HeartRateKitTests;
+			sourceTree = "<group>";
+		};
+		96E9494F204952B600C5D336 /* HeartRateKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				82676A7E2100CC3100663984 /* HeartRateKitExample.entitlements */,
+				96E94950204952B600C5D336 /* AppDelegate.swift */,
+				82676A762100B5EF00663984 /* SensorCell.swift */,
+				96E94952204952B600C5D336 /* SensorsViewController.swift */,
+				821584ED2356047700CC3D76 /* WatchManager.swift */,
+				96E94954204952B600C5D336 /* Main.storyboard */,
+				96E94957204952B600C5D336 /* Assets.xcassets */,
+				96E94959204952B600C5D336 /* LaunchScreen.storyboard */,
+				96E9495C204952B600C5D336 /* Info.plist */,
+			);
+			path = HeartRateKitExample;
+			sourceTree = "<group>";
+		};
+		96E94964204952B600C5D336 /* HeartRateKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				96E94965204952B600C5D336 /* HeartRateKitExampleTests.swift */,
+				96E94967204952B600C5D336 /* Info.plist */,
+			);
+			path = HeartRateKitExampleTests;
+			sourceTree = "<group>";
+		};
+		96E9496F204952B600C5D336 /* HeartRateKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96E94970204952B600C5D336 /* HeartRateKitExampleUITests.swift */,
+				96E94972204952B600C5D336 /* Info.plist */,
+			);
+			path = HeartRateKitExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C018FF2105FDF10091D58C /* HeartRateKitExampleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C0191F2105FDF30091D58C /* Build configuration list for PBXNativeTarget "HeartRateKitExampleWatch" */;
+			buildPhases = (
+				82C018FE2105FDF10091D58C /* Resources */,
+				82C0191E2105FDF30091D58C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C0190F2105FDF30091D58C /* PBXTargetDependency */,
+			);
+			name = HeartRateKitExampleWatch;
+			productName = HeartRateKitExampleWatch;
+			productReference = 82C019002105FDF10091D58C /* HeartRateKitExampleWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		82C0190B2105FDF30091D58C /* HeartRateKitExampleWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C0191B2105FDF30091D58C /* Build configuration list for PBXNativeTarget "HeartRateKitExampleWatch Extension" */;
+			buildPhases = (
+				82C019082105FDF30091D58C /* Sources */,
+				82C019092105FDF30091D58C /* Frameworks */,
+				82C0190A2105FDF30091D58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartRateKitExampleWatch Extension";
+			productName = "HeartRateKitExampleWatch Extension";
+			productReference = 82C0190C2105FDF30091D58C /* HeartRateKitExampleWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		96A796B72048539800350531 /* HeartRateKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A796C62048539800350531 /* Build configuration list for PBXNativeTarget "HeartRateKitTests" */;
+			buildPhases = (
+				96A796B42048539800350531 /* Sources */,
+				96A796B52048539800350531 /* Frameworks */,
+				96A796B62048539800350531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartRateKitTests;
+			productName = HeartRateKitTests;
+			productReference = 96A796B82048539800350531 /* HeartRateKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96E9494D204952B500C5D336 /* HeartRateKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E94979204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExample" */;
+			buildPhases = (
+				96E9494A204952B500C5D336 /* Sources */,
+				96E9494B204952B500C5D336 /* Frameworks */,
+				96E9494C204952B500C5D336 /* Resources */,
+				82676A7A2100CBE900663984 /* Embed Frameworks */,
+				82C019222105FDF30091D58C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C019192105FDF30091D58C /* PBXTargetDependency */,
+			);
+			name = HeartRateKitExample;
+			packageProductDependencies = (
+				82D2D32A2475693800728EA8 /* HeartRateKit */,
+			);
+			productName = HeartRateKitExample;
+			productReference = 96E9494E204952B500C5D336 /* HeartRateKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96E94960204952B600C5D336 /* HeartRateKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E9497A204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExampleTests" */;
+			buildPhases = (
+				96E9495D204952B600C5D336 /* Sources */,
+				96E9495E204952B600C5D336 /* Frameworks */,
+				96E9495F204952B600C5D336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E94963204952B600C5D336 /* PBXTargetDependency */,
+			);
+			name = HeartRateKitExampleTests;
+			productName = HeartRateKitExampleTests;
+			productReference = 96E94961204952B600C5D336 /* HeartRateKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96E9496B204952B600C5D336 /* HeartRateKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E9497B204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExampleUITests" */;
+			buildPhases = (
+				96E94968204952B600C5D336 /* Sources */,
+				96E94969204952B600C5D336 /* Frameworks */,
+				96E9496A204952B600C5D336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E9496E204952B600C5D336 /* PBXTargetDependency */,
+			);
+			name = HeartRateKitExampleUITests;
+			productName = HeartRateKitExampleUITests;
+			productReference = 96E9496C204952B600C5D336 /* HeartRateKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A796A62048539800350531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MadAppGang;
+				TargetAttributes = {
+					82C018FF2105FDF10091D58C = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					82C0190B2105FDF30091D58C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+					96A796B72048539800350531 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					96E9494D204952B500C5D336 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					96E94960204952B600C5D336 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96E9494D204952B500C5D336;
+					};
+					96E9496B204952B600C5D336 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96E9494D204952B500C5D336;
+					};
+				};
+			};
+			buildConfigurationList = 96A796A92048539800350531 /* Build configuration list for PBXProject "HeartRateKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A796A52048539800350531;
+			productRefGroup = 96A796B02048539800350531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A796B72048539800350531 /* HeartRateKitTests */,
+				96E9494D204952B500C5D336 /* HeartRateKitExample */,
+				96E94960204952B600C5D336 /* HeartRateKitExampleTests */,
+				96E9496B204952B600C5D336 /* HeartRateKitExampleUITests */,
+				82C018FF2105FDF10091D58C /* HeartRateKitExampleWatch */,
+				82C0190B2105FDF30091D58C /* HeartRateKitExampleWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C018FE2105FDF10091D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C019062105FDF20091D58C /* Assets.xcassets in Resources */,
+				82C019042105FDF10091D58C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C0190A2105FDF30091D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C019162105FDF30091D58C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A796B62048539800350531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9494C204952B500C5D336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E9495B204952B600C5D336 /* LaunchScreen.storyboard in Resources */,
+				96E94958204952B600C5D336 /* Assets.xcassets in Resources */,
+				96E94956204952B600C5D336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9495F204952B600C5D336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9496A204952B600C5D336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C019082105FDF30091D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821584F023563A2800CC3D76 /* ConnectionManager.swift in Sources */,
+				82C019142105FDF30091D58C /* ExtensionDelegate.swift in Sources */,
+				8272A8462107172900CD5D8C /* WorkoutManager.swift in Sources */,
+				82C019122105FDF30091D58C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A796B42048539800350531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E9497F20495C5F00C5D336 /* HeartRateSensorManagerTests.swift in Sources */,
+				96A796BE2048539800350531 /* HeartRateKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9494A204952B500C5D336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E94953204952B600C5D336 /* SensorsViewController.swift in Sources */,
+				96E94951204952B600C5D336 /* AppDelegate.swift in Sources */,
+				82676A772100B5EF00663984 /* SensorCell.swift in Sources */,
+				821584EE2356047700CC3D76 /* WatchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E9495D204952B600C5D336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E94966204952B600C5D336 /* HeartRateKitExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E94968204952B600C5D336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E94971204952B600C5D336 /* HeartRateKitExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C0190F2105FDF30091D58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C0190B2105FDF30091D58C /* HeartRateKitExampleWatch Extension */;
+			targetProxy = 82C0190E2105FDF30091D58C /* PBXContainerItemProxy */;
+		};
+		82C019192105FDF30091D58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C018FF2105FDF10091D58C /* HeartRateKitExampleWatch */;
+			targetProxy = 82C019182105FDF30091D58C /* PBXContainerItemProxy */;
+		};
+		96E94963204952B600C5D336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E9494D204952B500C5D336 /* HeartRateKitExample */;
+			targetProxy = 96E94962204952B600C5D336 /* PBXContainerItemProxy */;
+		};
+		96E9496E204952B600C5D336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E9494D204952B500C5D336 /* HeartRateKitExample */;
+			targetProxy = 96E9496D204952B600C5D336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82C019022105FDF10091D58C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C019032105FDF10091D58C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		96E94954204952B600C5D336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E94955204952B600C5D336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96E94959204952B600C5D336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E9495A204952B600C5D336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C0191C2105FDF30091D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_ENTITLEMENTS = "HeartRateKitExampleWatch Extension/HeartRateKitExampleWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				INFOPLIST_FILE = "HeartRateKitExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		82C0191D2105FDF30091D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_ENTITLEMENTS = "HeartRateKitExampleWatch Extension/HeartRateKitExampleWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				INFOPLIST_FILE = "HeartRateKitExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		82C019202105FDF30091D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				IBSC_MODULE = HeartRateKitExampleWatch_Extension;
+				INFOPLIST_FILE = HeartRateKitExampleWatch/Info.plist;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		82C019212105FDF30091D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				IBSC_MODULE = HeartRateKitExampleWatch_Extension;
+				INFOPLIST_FILE = HeartRateKitExampleWatch/Info.plist;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		96A796C12048539800350531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96A796C22048539800350531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96A796C72048539800350531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96A796C82048539800350531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E94973204952B600C5D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeartRateKitExample/HeartRateKitExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				INFOPLIST_FILE = HeartRateKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E94974204952B600C5D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeartRateKitExample/HeartRateKitExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T75B68U5S7;
+				INFOPLIST_FILE = HeartRateKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E94975204952B600C5D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateKitExample.app/HeartRateKitExample";
+			};
+			name = Debug;
+		};
+		96E94976204952B600C5D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateKitExample.app/HeartRateKitExample";
+			};
+			name = Release;
+		};
+		96E94977204952B600C5D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartRateKitExample;
+			};
+			name = Debug;
+		};
+		96E94978204952B600C5D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E85N35G3YB;
+				INFOPLIST_FILE = HeartRateKitExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madappgang.HeartRateKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartRateKitExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C0191B2105FDF30091D58C /* Build configuration list for PBXNativeTarget "HeartRateKitExampleWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C0191C2105FDF30091D58C /* Debug */,
+				82C0191D2105FDF30091D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C0191F2105FDF30091D58C /* Build configuration list for PBXNativeTarget "HeartRateKitExampleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C019202105FDF30091D58C /* Debug */,
+				82C019212105FDF30091D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A796A92048539800350531 /* Build configuration list for PBXProject "HeartRateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A796C12048539800350531 /* Debug */,
+				96A796C22048539800350531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A796C62048539800350531 /* Build configuration list for PBXNativeTarget "HeartRateKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A796C72048539800350531 /* Debug */,
+				96A796C82048539800350531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E94979204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E94973204952B600C5D336 /* Debug */,
+				96E94974204952B600C5D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E9497A204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E94975204952B600C5D336 /* Debug */,
+				96E94976204952B600C5D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E9497B204952B600C5D336 /* Build configuration list for PBXNativeTarget "HeartRateKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E94977204952B600C5D336 /* Debug */,
+				96E94978204952B600C5D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82D2D32A2475693800728EA8 /* HeartRateKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HeartRateKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 96A796A62048539800350531 /* Project object */;
+}

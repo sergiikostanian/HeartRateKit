@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14865.1" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch40"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14642"/>
+    </dependencies>
+    <scenes>
+        <!--HR Kit-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="MainInterface" title="HR Kit" contentMode="scaleAspectFit" spacing="30" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HeartRateKitExampleWatch" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="---" id="KqO-3a-JNh">
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="25"/>
+                        </label>
+                        <button width="1" height="50" alignment="center" verticalAlignment="center" title="Start reading HR" id="Luu-2m-Aje">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.5607843137254902" green="1" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="17"/>
+                            <connections>
+                                <action selector="toggleReadingHR" destination="AgC-eL-Hgc" id="H5g-nU-HSY"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="hrLabel" destination="KqO-3a-JNh" id="tSC-o4-iNx"/>
+                        <outlet property="toggleButton" destination="Luu-2m-Aje" id="fwr-Yd-3vY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="33"/>
+        </scene>
+    </scenes>
+</document>
